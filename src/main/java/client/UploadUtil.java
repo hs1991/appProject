@@ -16,7 +16,7 @@ public class UploadUtil {
 		try{
 			//不同的日志类型对应不同的URL
 			URL[] urls = {new URL("http://sts01:8080/log-analysis/logs/startupLogs"),
-					new URL("http://sts01:8080/log-analysis04/logs/pageLogs"),
+					new URL("http://sts01:8080/log-analysis/logs/pageLogs"),
 					new URL("http://sts01:8080/log-analysis/logs/errorLogs")};
 
 			URL url = urls[logKind];
